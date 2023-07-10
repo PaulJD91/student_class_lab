@@ -9,9 +9,12 @@
 from team import Team
 
 team = {
-    "name": "Liverpool"
+    "name": "Liverpool",
     "players": [ "Gerrard",
                 "Carragher",
-                "Alonso"]
+                "Alonso"],
     "coach": "Benitez"
 }
+
+
+
