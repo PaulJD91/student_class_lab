@@ -7,7 +7,6 @@ class CodeClanStudent:
     def talk(self):
         return print("I can talk!")
 
-    def fav_language(self):
-        return input("What is your favourite language? ")  
-        if input == "python":
-            return print("I love python!")
+    def fav_language(self, favourite_language):
+        return print("I love " + favourite_language)  
+        
