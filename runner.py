@@ -1,6 +1,6 @@
-from students import CodeClanStudent
+from students import Student
 
-student = CodeClanStudent("Paul", "E65")
+student = Student("Paul", "E65")
 print(student.student_name)
 
 student.talk()
