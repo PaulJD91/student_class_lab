@@ -8,13 +8,11 @@
 
 from team import Team
 
-team = {
-    "name": "Liverpool",
-    "players": [ "Gerrard",
-                "Carragher",
-                "Alonso"],
-    "coach": "Benitez"
-}
+players = ["Gerrard", "Carragher", "Alonso"]
+
+team = Team("Liverpool", players, "Benitez")
+
+
 
 
 
