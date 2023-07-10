@@ -4,4 +4,10 @@ class CodeClanStudent:
         self.student_name = student_name
         self.cohort = cohort
 
-    
+    def talk(self):
+        return print("I can talk!")
+
+    def fav_language(self):
+        return input("What is your favourite language? ")  
+        if input == "python":
+            return print("I love python!")
